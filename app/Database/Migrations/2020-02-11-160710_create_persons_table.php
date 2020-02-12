@@ -13,11 +13,11 @@ class CreatePerson extends Migration
 				'type'           => 'INT',
 				'auto_increment' => TRUE
 			],
-			'nombre'       => [
+			'name'       => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '80',
 			],
-			'apellido' => [
+			'last_name' => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '80',
 			],
@@ -26,7 +26,7 @@ class CreatePerson extends Migration
 				'null'           => FALSE,
 				'unique'         => true,
 			],
-			'direccion' => [
+			'address' => [
 				'type'           => 'TEXT',
 				'null'           => true
 			]

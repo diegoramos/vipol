@@ -4,13 +4,13 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class User extends Model 
+class GroupModule extends Model 
 {
-    protected $table = 'users';
+    protected $table = 'groups_module';
 
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['username', 'password', 'person_id', 'created_at'];
+    protected $allowedFields = ['name'];
 
     protected $useTimestamps = true;
 

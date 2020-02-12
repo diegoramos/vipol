@@ -13,10 +13,22 @@ class CreateGroupModuleTable extends Migration
 				'type'           => 'INT',
 				'auto_increment' => TRUE
 			],
-			'nombre'       => [
+			'name'       => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '200',
 				'null'           => true
+			],
+			'created_at' => [
+				'type'           => 'DATETIME',
+				'null'           => TRUE,
+			],
+			'updated_at' => [
+				'type'           => 'DATETIME',
+				'null'           => TRUE,
+			],
+			'deleted_at'       	=> [
+				'type'           => 'DATETIME',
+				'null'           => TRUE,
 			]
 		]);
 		$this->forge->addKey('id', TRUE);
