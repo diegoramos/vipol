@@ -21,6 +21,11 @@ class CreateModulesTable extends Migration
 				'constraint'     => '25',
 				'null'           => true
 			],
+			'is_base' => [
+				'type'           => 'INT',
+				'constraint'     => '1',
+				'default'		 =>	'0',
+			],
 			'module_id'          => [
 				'type'           => 'INT',
 				'null'           => true,
@@ -43,7 +48,7 @@ class CreateModulesTable extends Migration
 			]
 		]);
 		$this->forge->addForeignKey('module_group_id', 'groups_module', 'id');
-		$this->forge->addForeignKey('module_id', 'groups_module', 'id');
+		$this->forge->addForeignKey('module_id', 'modules', 'id');
 		$this->forge->addKey('id', TRUE);
 		$this->forge->createTable('modules');
 	}

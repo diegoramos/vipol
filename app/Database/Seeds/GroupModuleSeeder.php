@@ -8,11 +8,11 @@ class GroupModuleSeeder extends \CodeIgniter\Database\Seeder
     {
         $data = [
             [
-                'name'    => 'Grupo 1'
+                'name'    => 'Sistemas'
             ],
             [
-                'name'    => 'Grupo 2'
-            ],
+                'name'    => 'Seguridad'
+            ]
         ];
 
         // Simple Queries
