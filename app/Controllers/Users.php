@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Models\GroupModule;
 use App\Models\Module;
 
 class Users extends BaseController 
@@ -14,13 +13,9 @@ class Users extends BaseController
 
     public function index()
     {
-        
         $module = new Module();
-        
-        echo "<pre>";
-        print_r ($module->getAllModules());
-        echo "</pre>";
-        
+        $allModules = $module->getAllModules();
+        return view('users/permissions', array('allModules' => $allModules['sub']));
     }
 
     //--------------------------------------------------------------------
