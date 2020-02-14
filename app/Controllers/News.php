@@ -6,6 +6,7 @@ class News extends Controller
 {
         public function index()
         {
+                helper('html');
                 $model = new NewsModel();
 
                 $data = [
@@ -13,9 +14,10 @@ class News extends Controller
                         'title' => 'News archive',
                 ];
 
-                //echo view('templates/header', $data);
+                echo view('templates/header');
+                echo view('templates/sidebar');
                 echo view('news/overview', $data);
-                //echo view('templates/footer');
+                echo view('templates/footer');
         }
 
         public function view($blog_id = null)
