@@ -30,10 +30,6 @@ class CreateModulesTable extends Migration
 				'type'           => 'INT',
 				'null'           => true,
 			],
-			'module_group_id'          => [
-				'type'           => 'INT',
-				'null'           => false,
-			],
 			'created_at' => [
 				'type'           => 'DATETIME',
 				'null'           => TRUE,
@@ -47,7 +43,6 @@ class CreateModulesTable extends Migration
 				'null'           => TRUE,
 			]
 		]);
-		$this->forge->addForeignKey('module_group_id', 'groups_module', 'id');
 		$this->forge->addForeignKey('module_id', 'modules', 'id');
 		$this->forge->addKey('id', TRUE);
 		$this->forge->createTable('modules');

@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\Module;
+use App\Models\Permission;
 
 class Users extends BaseController 
 {
@@ -14,8 +15,14 @@ class Users extends BaseController
     public function index()
     {
         $module = new Module();
+        $persmission = new Permission();
+        $myPermission = $persmission->findAllByColumn('user_id',1);
         $allModules = $module->getAllModules();
-        return view('users/permissions', array('allModules' => $allModules['sub']));
+        
+        return view('users/permissions', array(
+                'allModules' => $allModules['sub'],
+                'myPermissions' => $myPermission
+            ));
     }
 
     //--------------------------------------------------------------------
