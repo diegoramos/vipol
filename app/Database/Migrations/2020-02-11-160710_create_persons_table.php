@@ -22,7 +22,8 @@ class CreatePerson extends Migration
 				'constraint'     => '80',
 			],
 			'dni' => [
-				'type'           => 'INT',
+				'type'           => 'VARCHAR',
+				'constraint'     => '15',
 				'null'           => FALSE,
 				'unique'         => true,
 			],

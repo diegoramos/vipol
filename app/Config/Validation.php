@@ -33,4 +33,37 @@ class Validation
 	//--------------------------------------------------------------------
 	// Rules
 	//--------------------------------------------------------------------
+
+	public $signin = [
+        'email'        => 'required|valid_email',
+        'password'     => 'required',
+	];
+	public $signin_errors = [
+        'password' => [
+            'required'    => 'EL {field} es requerido.',
+		],
+        'email'    => [
+			'required'		=> 'El {field} es requerido.',
+            'valid_email' => 'Por favor ingrese un correo valido.'
+        ]
+	];
+	
+	public $signup = [
+        'email'        => 'required|valid_email|is_unique[users.email]',
+        'password'     => 'required',
+        'pass_confirm' => 'required|matches[password]'
+    ];
+
+    public $signup_errors = [
+        'password' => [
+            'required'    => 'EL {field} es requerido.',
+		],
+		'pass_confirm' => [
+            'required'    => 'El {field} es requerido.',
+        ],
+        'email'    => [
+			'required'		=> 'El {field} es requerido.',
+            'valid_email' => 'Por favor ingrese un correo valido.'
+        ]
+    ];
 }
