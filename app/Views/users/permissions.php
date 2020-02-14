@@ -10,21 +10,21 @@
         
         <ul>
             <li>
-                <input type="checkbox" name="" id=""><label for=""><?=$module['name']?></label>
+                <input type="checkbox" name="" id="" <?php echo in_array($module['id'],$myPermissions) ? 'checked' : '' ?>><label for=""><?=$module['name']?></label>
                 <ul>
                     <?php foreach ($module['sub'] as $key => $module) { ?>
                     <li> 
-                        <input type="checkbox" name="" id=""><label for=""><?=$module['name']?></label>
+                        <input type="checkbox" name="" id="" <?php echo in_array($module['id'],$myPermissions) ? 'checked' : '' ?>><label for=""><?=$module['name']?></label>
                         <?php if($module['is_base']){ ?>
                             <ul>
                             <?php foreach ($module['sub'] as $key => $module) { ?>
                                 <li> 
-                                    <input type="checkbox" name="" id=""><label for=""><?=$module['name']?></label>
+                                    <input type="checkbox" name="" id="" <?php echo in_array($module['id'],$myPermissions) ? 'checked' : '' ?>><label for=""><?=$module['name']?></label>
                                     <?php if($module['is_base']){ ?>
                                         <ul>
                                         <?php foreach ($module['sub'] as $key => $module) { ?>
                                             <li> 
-                                                <input type="checkbox" name="" id=""><label for=""><?=$module['name']?></label>
+                                                <input type="checkbox" name="" id="" <?php echo in_array($module['id'],$myPermissions) ? 'checked' : '' ?>><label for=""><?=$module['name']?></label>
                                                 <?php if($module['is_base']){ ?>
                                                     <label for="">si</label>
                                                 <?php } ?>

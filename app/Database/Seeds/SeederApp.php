@@ -7,5 +7,7 @@ class SeederApp extends \CodeIgniter\Database\Seeder
     public function run()
     {
         $this->call('ModuleSeeder');
+        $this->call('UserSeeder');
+        $this->call('PermissionSeeder');
     }
 }

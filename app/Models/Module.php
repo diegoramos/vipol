@@ -35,25 +35,4 @@ class Module extends Model
         }
     }
 
-    public function getAllModulesRec(): array
-    {
-        $groups = $this->getWhere(['module_id' => null])->getResultArray();
-
-        foreach ($groups as $key => $value) {
-            if ($groups[$key]['is_base'] == 1) {
-                $groups[$key]['sub'] = $this->getWhere(['module_id' => $value['id']])->getResultArray();
-                foreach ($groups[$key]['sub'] as $keys => $sub) {
-                    if ($groups[$key]['sub'][$keys]['is_base'] == 1) {
-                        $groups[$key]['sub'][$keys]['sub']  = $this->getWhere(['module_id' => $sub['id']])->getResultArray();
-                        foreach ($groups[$key]['sub'][$keys]['sub'] as $keyss => $subsub) {
-                            if ($groups[$key]['sub'][$keys]['sub'][$keyss]['is_base'] == 1) {
-                                $groups[$key]['sub'][$keys]['sub'][$keyss]['sub']  = $this->getWhere(['module_id' => $subsub['id']])->getResultArray();
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        return $groups;
-    }
 }
