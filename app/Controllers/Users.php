@@ -16,7 +16,7 @@ class Users extends BaseController
     {
         $module = new Module();
         $persmission = new Permission();
-        $myPermission = $persmission->findAllByColumn('user_id',1);
+        $myPermission = $persmission->findAllByColumn('user_id',session()->get('user')['id']);
         $allModules = $module->getAllModules();
         
         return view('users/permissions', array(
