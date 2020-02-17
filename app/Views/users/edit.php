@@ -23,9 +23,12 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            
-            <?=view('users/form')?>
-            <?=view('users/permissions')?>
+            <form action="/users/<?=$user_id?>" method="post" id="userUpdateForm">
+                <input type="hidden" name="_method" value="PUT" />
+                <?= view('users/form') ?>
+                <?= view('users/permissions') ?>
+                <button type="submit" class="btn btn-primary floating-button">Actualizar</button>
+            </form>
             <!-- /.row -->
         </div>
         <!--/. container-fluid -->

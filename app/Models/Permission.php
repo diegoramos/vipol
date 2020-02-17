@@ -8,6 +8,8 @@ class Permission extends Model
 {
     protected $table = 'permissions';
 
+    protected $primaryKey = 'user_id';
+
     protected $useSoftDeletes = false;
 
     protected $allowedFields = [];

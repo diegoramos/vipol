@@ -16,18 +16,18 @@
                     <?php foreach ($module['sub'] as $key => $module) { ?>
                       <li>
                         <span <?php echo ($module['is_base']) ? 'class="caret"' : '' ?> ><?= $module['name'] ?></span>
-                        <input type="checkbox" name="" id="" <?php echo in_array($module['id'], $myPermissions) ? 'checked' : '' ?>>
+                        <input type="checkbox" name="permissions[]" id="permissions<?=$module['id']?>" value="<?=$module['id']?>" <?php echo in_array($module['id'], $myPermissions) ? 'checked' : '' ?>>
                         <?php if ($module['is_base']) { ?>
                           <ul class="nested">
                             <?php foreach ($module['sub'] as $key => $module) { ?>
                               <li>
                                 <span <?php echo ($module['is_base']) ? 'class="caret"' : '' ?>><?= $module['name'] ?></span>
-                                <input type="checkbox" name="" id="" <?php echo in_array($module['id'], $myPermissions) ? 'checked' : '' ?>>
+                                <input type="checkbox" name="permissions[]" id="permissions<?=$module['id']?>" value="<?=$module['id']?>" <?php echo in_array($module['id'], $myPermissions) ? 'checked' : '' ?>>
                                 <?php if ($module['is_base']) { ?>
                                   <ul class="nested">
                                     <?php foreach ($module['sub'] as $key => $module) { ?>
                                       <li>
-                                      <input type="checkbox" name="" id="" <?php echo in_array($module['id'], $myPermissions) ? 'checked' : '' ?>>
+                                      <input type="checkbox" name="permissions[]" id="permissions<?=$module['id']?>" value="<?=$module['id']?>" <?php echo in_array($module['id'], $myPermissions) ? 'checked' : '' ?>>
                                       <span for=""><?= $module['name'] ?></span>
                                         <?php if ($module['is_base']) { ?>
                                           <span for="">si</span>

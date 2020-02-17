@@ -53,8 +53,12 @@
                                             <td><?= $value['name'] ?></td>
                                             <td><?= $value['last_name'] ?></td>
                                             <td>
-                                                <a href="/users/<?= $value['id'] ?>/edit" class="btn btn-primary"><i class="fa fa-edit"></i></a>
-                                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                                <form action="/users/<?= $value['id'] ?>" method="post">
+                                                    <a href="/users/<?= $value['id'] ?>/edit" class="btn btn-primary"><i class="fa fa-edit"></i></a>
+
+                                                    <input type="hidden" name="_method" value="DELETE" />
+                                                    <button class="btn btn-danger" type="submit" onclick="return confirm('Estas seguro?')"><i class="fa fa-trash"></i></button>
+                                                </form>
                                             </td>
                                         </tr>
                                     <?php } ?>
