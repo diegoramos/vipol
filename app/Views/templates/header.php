@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/adminlte/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
   <!-- Tempusdominus Bbootstrap 4 -->
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/adminlte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
@@ -61,6 +63,31 @@
 
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
+        <!-- Config Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="fas fa-cogs"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-database mr-2"></i> Copia de Datos
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-database mr-2"></i> Restaurar Datos
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="<?php echo base_url(); ?>/users" class="dropdown-item">
+              <i class="fas fa-users mr-2"></i> Usuarios
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-cog mr-2"></i> Conf. Tablas
+            </a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
         <!-- Messages Dropdown Menu -->
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">

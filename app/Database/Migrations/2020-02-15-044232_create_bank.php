@@ -2,7 +2,7 @@
 
 use CodeIgniter\Database\Migration;
 
-class CreateDistrict extends Migration
+class CreateBank extends Migration
 {
 	public function up()
 	{
@@ -11,7 +11,6 @@ class CreateDistrict extends Migration
 				'type'           => 'VARCHAR',
 				'constraint'     => 5,
 				'null'           => FALSE,
-				//'unsigned'       => TRUE,
 			],
 			'description_short'       => [
 				'type'           => 'VARCHAR',
@@ -42,13 +41,13 @@ class CreateDistrict extends Migration
 		]);
 
 	    $this->forge->addKey('id', TRUE);
-	    $this->forge->createTable('districts');
+	    $this->forge->createTable('banks');
 	}
 
 	//--------------------------------------------------------------------
 
 	public function down()
 	{
-		$this->forge->dropTable('districts');
+		$this->forge->dropTable('banks');
 	}
 }

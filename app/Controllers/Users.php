@@ -37,10 +37,13 @@ class Users extends BaseController implements IBaseController
         $myPermission = $persmission->findAllByColumn('user_id',session()->get('user')['id']);
         $allModules = $module->getAllModules();
         
-        return view('users/permissions', array(
+        echo view('templates/header');
+        echo view('templates/sidebar');
+        echo view('users/permissions', array(
                 'allModules' => $allModules['sub'],
                 'myPermissions' => $myPermission
             ));
+        echo view('templates/footer');
     }
 
     public function show($id)

@@ -2,17 +2,15 @@
 
 use CodeIgniter\Database\Migration;
 
-class CreatePartnerSituation extends Migration
+class CreateTypeInstitution extends Migration
 {
 	public function up()
 	{
 		$this->forge->addField([
 			'id'          => [
-				'type'           => 'INT',
-				'constraint'     => 11,
+				'type'           => 'VARCHAR',
+				'constraint'     => 5,
 				'null'           => FALSE,
-				//'unsigned'       => TRUE,
-				//'auto_increment' => TRUE
 			],
 			'description_short'       => [
 				'type'           => 'VARCHAR',
@@ -43,13 +41,13 @@ class CreatePartnerSituation extends Migration
 		]);
 
 	    $this->forge->addKey('id', TRUE);
-	    $this->forge->createTable('partner_situation');
+	    $this->forge->createTable('type_institution');
 	}
 
 	//--------------------------------------------------------------------
 
 	public function down()
 	{
-		$this->forge->dropTable('partner_situation');
+		$this->forge->dropTable('type_institution');
 	}
 }
