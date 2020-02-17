@@ -19,15 +19,25 @@ class Users extends BaseController implements IBaseController
     {
 
         $user = new Person();
-        $users = $user->paginate(20,'pagina',1);
-        
+        $users = $user->select("users.*,persons.name,persons.last_name,persons.dni,persons.address")
+            ->join('users', 'users.person_id = persons.id')
+            ->paginate(20,'pagina',1);
         
         return view('users/table', array('users'=>$users));
     }
 
+    public function new()
+    {
+        $module = new Module();
+        $allModules = $module->getAllModules();
+        return view('users/create', array(
+            'allModules' => $allModules['sub']
+        ));
+    }
+
     public function create()
     {
-
+        
     }
     
     public function edit($id)
@@ -37,13 +47,10 @@ class Users extends BaseController implements IBaseController
         $myPermission = $persmission->findAllByColumn('user_id',session()->get('user')['id']);
         $allModules = $module->getAllModules();
         
-        echo view('templates/header');
-        echo view('templates/sidebar');
-        echo view('users/permissions', array(
+        return view('users/edit', array(
                 'allModules' => $allModules['sub'],
                 'myPermissions' => $myPermission
             ));
-        echo view('templates/footer');
     }
 
     public function show($id)
