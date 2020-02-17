@@ -31,12 +31,11 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">Lista de Usuarios </h3>
-                            <a href="/users/new" class="btn btn-success">Nuevo</a>
+                            <div class="float-right"><a class="btn btn-success" href="/users/new" role="button">Nuevo</a></div>
                         </div>
                         <!-- /.card-header -->
-                        <div class="card-body">
-
-                            <table id="example1" class="table table-bordered table-striped">
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-hover text-nowrap">
                                 <thead>
                                     <tr>
                                         <th>Id</th>
