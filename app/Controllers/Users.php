@@ -2,10 +2,13 @@
 
 namespace App\Controllers;
 
+use App\Controllers\Interfaces\IBaseController;
 use App\Models\Module;
 use App\Models\Permission;
+use App\Models\Person;
+use App\Models\User;
 
-class Users extends BaseController 
+class Users extends BaseController implements IBaseController
 {
     public function __construct()
     {
@@ -13,6 +16,21 @@ class Users extends BaseController
     }
 
     public function index()
+    {
+
+        $user = new Person();
+        $users = $user->paginate(20,'pagina',1);
+        
+        
+        return view('users/table', array('users'=>$users));
+    }
+
+    public function create()
+    {
+
+    }
+    
+    public function edit($id)
     {
         $module = new Module();
         $persmission = new Permission();
@@ -24,6 +42,22 @@ class Users extends BaseController
                 'myPermissions' => $myPermission
             ));
     }
+
+    public function show($id)
+    {
+
+    }
+
+    public function update($id)
+    {
+
+    }
+
+    public function delete($id)
+    {
+
+    }
+
 
     //--------------------------------------------------------------------
 
