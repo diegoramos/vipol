@@ -41,7 +41,7 @@ class CreateTypeInstitution extends Migration
 		]);
 
 	    $this->forge->addKey('id', TRUE);
-	    $this->forge->createTable('relationship');
+	    $this->forge->createTable('type_institution');
 	}
 
 	//--------------------------------------------------------------------

@@ -15,6 +15,6 @@ class AgreementDocumentsSeeder extends \CodeIgniter\Database\Seeder
 			['id'=>'5','description_short'=>'RESOLUCION DE CONTRATO','description_long'=>'RESOLUCION DE CONTRATO'],
         ];
 
-        $this->db->table('agreement_documents')->insertBatch($data);
+        $this->db->table('agreement_documents_csjo')->insertBatch($data);
     }
 }

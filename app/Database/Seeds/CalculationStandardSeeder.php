@@ -14,6 +14,6 @@ class CalculationStandardSeeder extends \CodeIgniter\Database\Seeder
             ['id'=>'5','description_short'=>'Independiente con Dscto','description_long'=>'Independiente con Dscto'],
         ];
 
-        $this->db->table('calcuation_standard')->insertBatch($data);
+        $this->db->table('calculation_standard')->insertBatch($data);
     }
 }
