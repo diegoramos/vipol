@@ -23,26 +23,13 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            
-            <?=view('users/form')?>
+            <form action="/users" method="post" id="userCreateForm">
+                <?= view('users/form') ?>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">Permisos</h3>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <div class="row">
-                            </div>
-                        </div>
-                        <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                </div>
-            </div>
-            <!-- /.row -->
+                <?= view('users/permissions') ?>
+                <!-- /.row -->
+                <button type="submit" class="btn btn-success floating-button">Guardar</button>
+            </form>
         </div>
         <!--/. container-fluid -->
     </section>

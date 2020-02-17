@@ -51,19 +51,20 @@ class Validation
 	public $signup = [
         'email'        => 'required|valid_email|is_unique[users.email]',
         'password'     => 'required',
-        'pass_confirm' => 'required|matches[password]'
+        'password_confirm' => 'required|matches[password]'
     ];
 
     public $signup_errors = [
         'password' => [
-            'required'    => 'EL {field} es requerido.',
+            'required'    => 'La contraseña es requerido.',
 		],
-		'pass_confirm' => [
-            'required'    => 'El {field} es requerido.',
+		'password' => [
+            'required'    => 'La password de confirmación es requerido.',
         ],
         'email'    => [
 			'required'		=> 'El {field} es requerido.',
-            'valid_email' => 'Por favor ingrese un correo valido.'
+			'valid_email' => 'Por favor ingrese un correo valido.',
+			'is_unique'	=> 'El correo electronico ya se encuentran en uso'
         ]
     ];
 }

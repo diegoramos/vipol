@@ -21,7 +21,8 @@ class User extends Model
 
     public function checkLogin(String $email, String $password)
     {
-        $row = $this->where(['email' => $email, 'password' => md5($password)])->first();
+        $row = $this->where(['email' => $email, 'password' => md5($password)])
+                    ->first();
 
         if ($row == null) {
             throw new Exception("Ingresar credenciales validos", 1);
