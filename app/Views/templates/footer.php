@@ -20,6 +20,9 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="<?=base_url();?>/assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="<?=base_url();?>/assets/adminlte/plugins/datatables/jquery.dataTables.js"></script>
+<script src="<?=base_url();?>/assets/adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
 <!-- ChartJS -->
 <script src="<?=base_url();?>/assets/adminlte/plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
@@ -43,5 +46,10 @@
 <script src="<?=base_url();?>/assets/adminlte/plugins/jquery-mapael/maps/usa_states.min.js"></script>
 <script src="<?=base_url();?>/assets/adminlte/plugins/chart.js/Chart.min.js"></script>
 <script src="<?=base_url();?>/assets/adminlte/dist/js/pages/dashboard2.js"></script>
+<?php $request = \Config\Services::request(); ?>
+<?php if($request->uri->getSegment(1) == 'users'){ ?>
+    <script src="<?=base_url();?>/assets/scripts/users.js" type="text/javascript"></script>
+<?php } ?>
+
 </body>
 </html>
