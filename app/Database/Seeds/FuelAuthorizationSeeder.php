@@ -11,6 +11,6 @@ class FuelAuthorizationSeeder extends \CodeIgniter\Database\Seeder
             ['id'=>'1','description_short'=>'Si Genera Combust','description_long'=>'Si Genera Combust'],
         ];
 
-        $this->db->table('fuel_authotization')->insertBatch($data);
+        $this->db->table('fuel_authorization')->insertBatch($data);
     }
 }
