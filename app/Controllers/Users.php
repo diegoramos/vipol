@@ -19,7 +19,7 @@ class Users extends BaseController implements IBaseController
 
         $user = new Person();
         $users = $user->select("users.*,persons.name,persons.last_name,persons.dni,persons.address")
-            ->where('deleted_at',null)
+            ->where('deleted_at', null)
             ->join('users', 'users.person_id = persons.id')
             ->paginate(20, 'pagina', 1);
 
@@ -35,7 +35,7 @@ class Users extends BaseController implements IBaseController
     {
         $requestData = $this->request->getPost();
         $validation =  \Config\Services::validation();
-
+        
         if (!$validation->run($requestData, 'signup')) {
 
             $errors = $validation->getErrors();
@@ -72,6 +72,7 @@ class Users extends BaseController implements IBaseController
     {
         $user = new User();
         $userData = $user->find($userId);
+        
         $person = new Person();
         $personData = $person->find($userData['person_id']);
         $fields = array(
@@ -97,18 +98,23 @@ class Users extends BaseController implements IBaseController
     public function update($userId)
     {
         $requestData = $this->request->getPost();
+        echo "<pre>";
+        print_r ($requestData);
+        echo "</pre>";exit;
         $user = new User();
         $userData = $user->find($userId);
-        
+
         if ($userData == null) {
-            return redirect()->to('/users/'.$userId.'/edit');
+            return redirect()->to('/users/' . $userId . '/edit');
         } else {
             $requestData['person_id'] = $userData['person_id'];
             $userDataNew = $this->_getRequestUserData($requestData, array(
                 "id" => $userId
             ));
 
-            if ($userDataNew['password'] == '') { unset($userDataNew['password']); }
+            if ($userDataNew['password'] == '') {
+                unset($userDataNew['password']);
+            }
             $user->save($userDataNew);
 
             $person = new Person();
@@ -116,9 +122,11 @@ class Users extends BaseController implements IBaseController
                 "id" => $userData['person_id']
             ));
             $person->save($personDataNew);
+
+            $permiso = new Permission();
+            $permiso->delete($userId);
+
             if (!is_null($this->request->getPost('permissions'))) {
-                $permiso = new Permission();
-                $permiso->delete($userId);
                 $permiso->insertBatch(
                     $this->prepareArrayPermission($userId, $this->request->getPost('permissions'))
                 );
@@ -130,9 +138,8 @@ class Users extends BaseController implements IBaseController
     public function delete($userId)
     {
         $user = new User();
-        
-        if($user->delete($userId))
-        {
+
+        if ($user->delete($userId)) {
             return redirect()->to('/users');
         }
         return redirect()->back()->with('foo', 'message');
@@ -155,9 +162,9 @@ class Users extends BaseController implements IBaseController
         return array_diff_key(
             array_merge(
                 array(
-                'email' => $requestData['email'],
-                'password' => $requestData['password'],
-                'person_id' => $requestData['person_id']
+                    'email' => $requestData['email'],
+                    'password' => $requestData['password'],
+                    'person_id' => $requestData['person_id']
                 ),
                 $mergeData
             ),

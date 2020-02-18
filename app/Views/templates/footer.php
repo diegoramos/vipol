@@ -56,6 +56,7 @@
   <script src="<?= base_url(); ?>/assets/adminlte/plugins/jquery-validation/additional-methods.min.js"></script>
 
   <?php if ($request->uri->getSegment(1) == 'users') { ?>
+    <script src="<?= base_url(); ?>/assets/scripts/permissions.js" type="text/javascript"></script>
     <script src="<?= base_url(); ?>/assets/scripts/users.js" type="text/javascript"></script>
   <?php } ?>
 

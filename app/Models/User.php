@@ -11,7 +11,7 @@ class User extends Model
 
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['username', 'password', 'person_id', 'created_at'];
+    protected $allowedFields = ['email', 'password', 'person_id', 'created_at'];
 
     protected $useTimestamps = true;
 
