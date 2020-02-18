@@ -98,9 +98,6 @@ class Users extends BaseController implements IBaseController
     public function update($userId)
     {
         $requestData = $this->request->getPost();
-        echo "<pre>";
-        print_r ($requestData);
-        echo "</pre>";exit;
         $user = new User();
         $userData = $user->find($userId);
 
