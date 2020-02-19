@@ -105,13 +105,13 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
                         <a href="#" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
+                          <i class="far fa-dot-circle nav-icon"></i>
                           <p>Por Caja</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="#" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
+                          <i class="far fa-dot-circle nav-icon"></i>
                           <p>Por Planilla</p>
                         </a>
                       </li>
@@ -121,7 +121,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Res. Ingr. Prog. + Cod Desc.
+                        Res.Ing.Prog.+Cod Desc.
                       </p>
                     </a>
                   </li>
@@ -136,7 +136,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
+                          <i class="far fa-dot-circle nav-icon"></i>
                           <p>
                             Por Caja
                             <i class="right fas fa-angle-left"></i>
@@ -145,13 +145,13 @@
                         <ul class="nav nav-treeview">
                           <li class="nav-item">
                             <a href="#" class="nav-link">
-                              <i class="far fa-dot-circle nav-icon"></i>
+                              <i class="fas fa-circle nav-icon"></i>
                               <p>Con Interes</p>
                             </a>
                           </li>
                           <li class="nav-item">
                             <a href="#" class="nav-link">
-                              <i class="far fa-dot-circle nav-icon"></i>
+                              <i class="fas fa-circle nav-icon"></i>
                               <p>Sin Interes</p>
                             </a>
                           </li>
@@ -159,7 +159,7 @@
                       </li>
                       <li class="nav-item">
                         <a href="#" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
+                          <i class="far fa-dot-circle nav-icon"></i>
                           <p>Por Planilla</p>
                         </a>
                       </li>
@@ -185,20 +185,20 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Ingr. Anual x Prog. Vivien.
+                        Ing.Anual x Prog.Vivien.
                         <i class="right fas fa-angle-left"></i>
                       </p>
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
                         <a href="#" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
+                          <i class="far fa-dot-circle nav-icon"></i>
                           <p>Por Caja</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="#" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
+                          <i class="far fa-dot-circle nav-icon"></i>
                           <p>Por Planilla</p>
                         </a>
                       </li>
@@ -208,15 +208,15 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Ingr. Anual Prog + Cod Desc
+                        Ing.Anual Prog+Cod.Desc
                       </p>
                     </a>
                   </li>
                   <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                      <i class="nav-icon fas fa-circle" style="color:red;"></i>
+                      <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Ingr. Anual Cod. Desc. Caja
+                        Ing.Anual Cod.Desc.Caja
                       </p>
                     </a>
                   </li>
@@ -244,17 +244,17 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
-                            Gnral Detallado (formato grande)
+                            Gnrl Detall.(Format. Grand)
                           </p>
                         </a>
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
-                            Gnral Acum: Fdo.Ser Gto.Adm
+                            Gnral Acum:Fdo.Ser.Gto.Adm
                           </p>
                         </a>
                       </li>
@@ -279,7 +279,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Direco-PNP
                           </p>
@@ -287,7 +287,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Caja Militar
                           </p>
@@ -295,7 +295,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             O.G.A
                           </p>
@@ -558,7 +558,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Recib. que FALTAN ACTUAL.
+                        Recib. que FALT.ACTUAL.
                       </p>
                     </a>
                   </li>
@@ -586,7 +586,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Resumen de Ingresos x Dia
+                        Resum. de Ingr. x Dia
                       </p>
                     </a>
                   </li>
@@ -594,7 +594,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Res. de Ing.Diar. x Cod.Aux.
+                        Res.de Ing.Diar.xCod.Aux.
                       </p>
                     </a>
                   </li>
@@ -602,7 +602,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Res. de Ing. x Cta. Conta.
+                        Res. de Ing.xCta. Conta.
                       </p>
                     </a>
                   </li>
@@ -642,7 +642,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Rango de Fecha
                           </p>
@@ -650,7 +650,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Listado General
                           </p>
@@ -662,7 +662,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Resum. de Ing. x Nombre
+                        Resum. de Ing.xNombre
                       </p>
                     </a>
                   </li>
@@ -730,7 +730,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Giro de Cheques Vouchers
+                        Giro de Cheq. Vouchers
                       </p>
                     </a>
                   </li>
@@ -762,7 +762,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Reg.Vouch. Rendir Cuenta
+                        Reg.Vouch.Rendir Cuenta
                       </p>
                     </a>
                   </li>
@@ -854,7 +854,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Documentos de Referencia
+                        Documentos.de Referen.
                       </p>
                     </a>
                   </li>
@@ -965,7 +965,7 @@
                     <a href="./index2.html" class="nav-link">
                       <i class="fas fa-circle nav-icon"></i>
                       <p>
-                        Genera Asientos Anexos
+                        Gener.Asientos Anexos
                         <i class="right fas fa-angle-left"></i>
                       </p>
                     </a>
@@ -973,7 +973,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Diferencia de Cambio
                           </p>
@@ -981,7 +981,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Gastos Bancarios
                           </p>
@@ -989,15 +989,15 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
-                            Intereses Libretas de Ahorros
+                            Inter. Libretas de Ahorrs
                           </p>
                         </a>
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Trans. de Cuentas
                           </p>
@@ -1005,7 +1005,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Depósitos (G)
                           </p>
@@ -1013,7 +1013,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla DIRECO-PNP
                           </p>
@@ -1021,7 +1021,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla CAJA MILITAR
                           </p>
@@ -1029,7 +1029,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla COMBUSTIBLE
                           </p>
@@ -1037,7 +1037,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla OGA
                           </p>
@@ -1045,7 +1045,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Regul. de Vauchers
                           </p>
@@ -1065,7 +1065,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Vouchers
                           </p>
@@ -1073,7 +1073,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Diferencia de Cambio
                           </p>
@@ -1081,7 +1081,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Gastos Bancarios
                           </p>
@@ -1089,7 +1089,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Intereses Libretas de Ahorros
                           </p>
@@ -1097,7 +1097,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Transferencias de Ctas.
                           </p>
@@ -1105,7 +1105,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Depósitos (T)
                           </p>
@@ -1113,7 +1113,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla de la DIRECO
                           </p>
@@ -1121,7 +1121,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla Caja Militar
                           </p>
@@ -1129,7 +1129,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla Combustible
                           </p>
@@ -1137,7 +1137,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla OGA
                           </p>
@@ -1385,7 +1385,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Modo General
                           </p>
@@ -1393,7 +1393,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Modo Depurado
                           </p>
@@ -1413,7 +1413,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Programa de Vivienda
                           </p>
@@ -1421,7 +1421,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Sit.Soc y Form.Pago
                           </p>
@@ -1429,7 +1429,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por PNP [1..5]
                           </p>
@@ -1437,7 +1437,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon fas far fa-dot-circle"></i>
                           <p>
                             Por CIVILES [6..9]
                           </p>
@@ -1445,7 +1445,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Adjudic. c/varios Prog.Vivienda
                           </p>
@@ -1489,7 +1489,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Control Bolsa Vipolina
                           </p>
@@ -1497,7 +1497,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Resumen Otorgados
                           </p>
@@ -1525,7 +1525,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Reporte General
                           </p>
@@ -1533,7 +1533,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Reporte x Fechas
                           </p>
@@ -1541,7 +1541,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Reporte Letras x Socio
                           </p>
@@ -1632,7 +1632,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Contabilidad
                           </p>
@@ -1640,7 +1640,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Garante Solidario
                           </p>
@@ -1648,7 +1648,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Regularizar
                           </p>
@@ -1656,7 +1656,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Planilla-Haberes
                           </p>
@@ -1664,7 +1664,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Dieta-Directivos
                           </p>
@@ -1700,7 +1700,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Carta Declaratoria de Benef.
+                        Carta Declar.de Benef.
                       </p>
                     </a>
                   </li>
@@ -1728,7 +1728,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Oirden de Pago Por Caja
+                        Orden de Pago Por Caja
                       </p>
                     </a>
                   </li>
@@ -1744,7 +1744,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Consumo
                             <i class="right fas fa-angle-left"></i>
@@ -1788,7 +1788,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Convenios
                             <i class="right fas fa-angle-left"></i>
@@ -1836,7 +1836,6 @@
                 </a>
 
                 <ul class="nav nav-treeview">
-
                   <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
@@ -1849,7 +1848,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Seguro Fallecimiento
                           </p>
@@ -1857,7 +1856,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Préstamos
                             <i class="right fas fa-angle-left"></i>
@@ -1877,7 +1876,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Fondo Serlav
                           </p>
@@ -1947,7 +1946,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Listado General
                           </p>
@@ -1955,15 +1954,15 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
-                            General c/detalle Garantes
+                            Genrl c/det.Garantes
                           </p>
                         </a>
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             General c/Deuda
                             <i class="right fas fa-angle-left"></i>
@@ -1994,7 +1993,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Socios con Dctos Indebidos
+                        Soci.con Dctos Indebi.
                       </p>
                     </a>
                   </li>
@@ -2010,7 +2009,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Préstamos Vencidos
                           </p>
@@ -2018,7 +2017,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Préstamos no Vencidos
                           </p>
@@ -2038,14 +2037,14 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Acum. Mensuales de Caja
+                        Acum. Mensua.de Caja
                         <i class="right fas fa-angle-left"></i>
                       </p>
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Seguro de Fallecimiento
                           </p>
@@ -2053,7 +2052,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Prestamos
                             <i class="right fas fa-angle-left"></i>
@@ -2072,7 +2071,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Fondo Serlav
                           </p>
@@ -2099,15 +2098,15 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
-                            Nuevos prestamos Otorgados
+                            Nuevos prest.Otorg.
                           </p>
                         </a>
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Préstamos Otorgados
                           </p>
@@ -2134,7 +2133,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Consumo
                             <i class="right fas fa-angle-left"></i>
@@ -2143,7 +2142,7 @@
                         <ul class="nav nav-treeview">
                           <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                              <i class="nav-icon fas fa-circle"></i>
+                              <i class="nav-icon far fa-circle"></i>
                               <p>
                                 Bolsa Vipolina
                                 <i class="right fas fa-angle-left"></i>
@@ -2170,7 +2169,7 @@
                           </li>
                           <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                              <i class="nav-icon fas fa-circle"></i>
+                              <i class="nav-icon far fa-circle"></i>
                               <p>
                                 Panetón Vipolino
                                 <i class="right fas fa-angle-left"></i>
@@ -2197,7 +2196,7 @@
                           </li>
                           <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                              <i class="nav-icon fas fa-circle"></i>
+                              <i class="nav-icon far fa-circle"></i>
                               <p>
                                 Canasta Navideña
                                 <i class="right fas fa-angle-left"></i>
@@ -2224,7 +2223,7 @@
                           </li>
                           <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                              <i class="nav-icon fas fa-circle"></i>
+                              <i class="nav-icon far fa-circle"></i>
                               <p>
                                 Paquete Económico
                                 <i class="right fas fa-angle-left"></i>
@@ -2253,7 +2252,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Convenio
                             <i class="right fas fa-angle-left"></i>
@@ -2262,7 +2261,7 @@
                         <ul class="nav nav-treeview">
                           <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                              <i class="nav-icon fas fa-circle"></i>
+                              <i class="nav-icon far fa-circle"></i>
                               <p>
                                 Paquete Turístico
                                 <i class="right fas fa-angle-left"></i>
@@ -2289,7 +2288,7 @@
                           </li>
                           <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                              <i class="nav-icon fas fa-circle"></i>
+                              <i class="nav-icon far fa-circle"></i>
                               <p>
                                 Paquete Médico
                                 <i class="right fas fa-angle-left"></i>
@@ -2329,7 +2328,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Refinanciamiento
                           </p>
@@ -2337,7 +2336,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Planilla Haberes
                           </p>
@@ -2345,7 +2344,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Dietas Directivos
                           </p>
@@ -2353,7 +2352,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Regularizaciones
                           </p>
@@ -2361,7 +2360,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Garantes Solidarios
                           </p>
@@ -2436,7 +2435,7 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        Movimientos-Regularizaciones
+                        Mvtos-Regularizaciones
                       </p>
                     </a>
                   </li>
@@ -2574,7 +2573,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Con interes
                           </p>
@@ -2582,7 +2581,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Sin interes
                           </p>
@@ -2601,7 +2600,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Proyectado Detallado
                           </p>
@@ -2609,7 +2608,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Proyectado Real (Ap)
                           </p>
@@ -2617,7 +2616,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Proyectado Real (Mz)
                           </p>
@@ -2625,7 +2624,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Proyect. Real (Ap) s/0 Acum.
                           </p>
@@ -2633,7 +2632,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Proyect. Real (Ap) s/0 Saldos
                           </p>
@@ -2652,7 +2651,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Direco y Caja Militar
                           </p>
@@ -2660,7 +2659,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Solo Direco
                           </p>
@@ -2668,7 +2667,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Solo Caja militar
                           </p>
@@ -2736,7 +2735,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Padron Forma General
                           </p>
@@ -2744,7 +2743,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Padron Programas de Vivien.
                           </p>
@@ -2893,7 +2892,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Deudas.xAportes y Prog de Viv
                           </p>
@@ -2901,7 +2900,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Deudas.xAportes y Prog de Viv x Monto
                           </p>
@@ -2909,7 +2908,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Deudas.xProg de Viv x Cod. Descuento
                           </p>
@@ -2917,7 +2916,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Deudas.Gto Adm(x Prog de Viv)
                           </p>
@@ -2925,7 +2924,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Deudas+Prog Mensual(xCod de Prog Viv)
                           </p>
@@ -2933,7 +2932,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Reporte Especial OPREC
                           </p>
@@ -2941,7 +2940,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Deudas de Forma Resum. xCod Descto
                           </p>
@@ -2997,14 +2996,14 @@
                     <a href="#" class="nav-link">
                       <i class="nav-icon fas fa-circle"></i>
                       <p>
-                        List por Deuda Atrasad. y Morosi.
+                        Listado por Deuda Atrasad. y Morosi.
                         <i class="right fas fa-angle-left"></i>
                       </p>
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             En Forma General
                           </p>
@@ -3012,7 +3011,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Por Prog de Viv
                           </p>
@@ -3339,7 +3338,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3347,7 +3346,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3366,7 +3365,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3374,7 +3373,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3393,7 +3392,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3401,7 +3400,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3420,7 +3419,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3428,7 +3427,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3447,7 +3446,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3455,7 +3454,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3474,7 +3473,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3482,7 +3481,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3501,7 +3500,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3509,7 +3508,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3528,7 +3527,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3536,7 +3535,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3555,7 +3554,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Almacenes
                           </p>
@@ -3563,7 +3562,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Servicios
                           </p>
@@ -3765,7 +3764,7 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Normal Gratificaciones
                           </p>
@@ -3773,7 +3772,7 @@
                       </li>
                       <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
+                          <i class="nav-icon far fa-dot-circle"></i>
                           <p>
                             Vacaciones
                           </p>

@@ -73,6 +73,7 @@
                                     </tr>
                                 </tfoot>
                             </table>
+                            <?= $pager->links(); ?>
                         </div>
                         <!-- /.card-body -->
                     </div>

@@ -16,14 +16,19 @@ class Users extends BaseController implements IBaseController
 
     public function index()
     {
+        $search = $this->request->getGet('search');
+        $page = $this->request->getGet('page') ?? 0;
 
         $user = new Person();
         $users = $user->select("users.*,persons.name,persons.last_name,persons.dni,persons.address")
             ->where('deleted_at', null)
             ->join('users', 'users.person_id = persons.id')
-            ->paginate(20, 'pagina', 1);
-
-        return view('users/table', array('users' => $users));
+            ->paginate(20, 'pagina');
+        
+        return view('users/table', array(
+            'users' => $users,
+            'pager' => $user->pager
+        ));
     }
 
     public function new()
