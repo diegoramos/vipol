@@ -8,8 +8,8 @@ class CreatePaymentSituation extends Migration
 	{
 		$this->forge->addField([
 			'id'          => [
-				'type'           => 'VARCHAR',
-				'constraint'     => 5,
+				'type'           => 'INT',
+				'constraint'     => '11',
 				'null'           => FALSE,
 			],
 			'description_short'       => [

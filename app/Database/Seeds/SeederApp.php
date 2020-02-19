@@ -13,6 +13,7 @@ class SeederApp extends \CodeIgniter\Database\Seeder
         $this->call('ActiveDocumentsSeeder');
         $this->call('ActiveStateSeeder');
         $this->call('AgreementDocumentsSeeder');
+        $this->call('AuthorizationDiscountsSeeder');
         $this->call('BankSeeder');
         $this->call('CalculationStandardSeeder');
         $this->call('DistrictSeeder');

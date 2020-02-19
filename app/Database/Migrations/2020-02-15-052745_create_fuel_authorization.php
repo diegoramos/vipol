@@ -8,8 +8,8 @@ class CreateFuelAuthorization extends Migration
 	{
 		$this->forge->addField([
 			'id'          => [
-				'type'           => 'VARCHAR',
-				'constraint'     => 5,
+				'type'           => 'INT',
+				'constraint'     => '11',
 				'null'           => FALSE,
 			],
 			'description_short'       => [
@@ -41,13 +41,13 @@ class CreateFuelAuthorization extends Migration
 		]);
 
 	    $this->forge->addKey('id', TRUE);
-	    $this->forge->createTable('fuel_authotization');
+	    $this->forge->createTable('fuel_authorization');
 	}
 
 	//--------------------------------------------------------------------
 
 	public function down()
 	{
-		$this->forge->dropTable('fuel_authotization');
+		$this->forge->dropTable('fuel_authorization');
 	}
 }

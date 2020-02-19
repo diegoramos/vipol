@@ -9,7 +9,7 @@ class CreateIdentificationDocument extends Migration
 		$this->forge->addField([
 			'id'          => [
 				'type'           => 'VARCHAR',
-				'constraint'     => 5,
+				'constraint'     => '5',
 				'null'           => FALSE,
 			],
 			'description_short'       => [
