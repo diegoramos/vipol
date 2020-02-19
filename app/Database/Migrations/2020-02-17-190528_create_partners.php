@@ -13,14 +13,14 @@ class CreatePartners extends Migration
 				'auto_increment' => TRUE,
 			],
 			'type_institution_id'       => [
-				'type'           => 'INT',
-				'constraint'     => '11',
-				'null'           => false,
+				'type'           => 'VARCHAR',
+				'constraint'     => '5',
+				'null'           => FALSE,
 			],
 			'active_document_id'       => [
-				'type'           => 'INT',
-				'constraint'     => '11',
-				'null'           => false,
+				'type'           => 'VARCHAR',
+				'constraint'     => '5',
+				'null'           => FALSE,
 			],
 			'date_in'       => [
 				'type'           => 'DATETIME',
@@ -44,7 +44,7 @@ class CreatePartners extends Migration
 			'partner_situation_id' => [
 				'type'           => 'INT',
 				'constraint'     => '11',
-				'null'           => false,
+				'null'           => FALSE,
 			],
 			'date_out' => [
 				'type'           => 'DATETIME',
@@ -53,7 +53,7 @@ class CreatePartners extends Migration
 			'agreement_document_id' => [
 				'type'           => 'INT',
 				'constraint'     => '11',
-				'null'           => false,
+				'null'           => FALSE,
 			],
 			'num_agreement' => [
 				'type'           => 'VARCHAR',
@@ -67,12 +67,12 @@ class CreatePartners extends Migration
 			'authorization_discount_id' => [
 				'type'           => 'INT',
 				'constraint'     => '11',
-				'null'           => false,
+				'null'           => FALSE,
 			],
 			'type_agreement_id' => [
 				'type'           => 'INT',
 				'constraint'     => '11',
-				'null'           => false,
+				'null'           => FALSE,
 			],
 			'fuel_autho_id' => [
 				'type'           => 'INT',
@@ -118,8 +118,8 @@ class CreatePartners extends Migration
 				'null'           => TRUE,
 			],
 			'identification_document_id' => [
-				'type'           => 'INT',
-				'constraint'     => '11',
+				'type'           => 'VARCHAR',
+				'constraint'     => '5',
 				'null'           => false,
 			],
 			'num_document' => [
@@ -143,8 +143,8 @@ class CreatePartners extends Migration
 				'null'           => TRUE,
 			],
 			'district_id' => [
-				'type'           => 'INT',
-				'constraint'     => '11',
+				'type'           => 'VARCHAR',
+				'constraint'     => '5',
 				'null'           => false,
 			],
 			'phone_cell' => [
@@ -168,8 +168,8 @@ class CreatePartners extends Migration
 				'null'           => TRUE,
 			],
 			'work_district_id' => [
-				'type'           => 'INT',
-				'constraint'     => '11',
+				'type'           => 'VARCHAR',
+				'constraint'     => '5',
 				'null'           => false,
 			],
 			'work_phone' => [
@@ -215,7 +215,7 @@ class CreatePartners extends Migration
 		$this->forge->addForeignKey('active_document_id', 'active_documents', 'id');
 		$this->forge->addForeignKey('payment_situation_id', 'payment_situation', 'id');
 		$this->forge->addForeignKey('partner_situation_id', 'partner_situation', 'id');
-		$this->forge->addForeignKey('agreement_document_id', 'agreement_documents', 'id');
+		$this->forge->addForeignKey('agreement_document_id', 'agreement_documents_csjo', 'id');
 		$this->forge->addForeignKey('authorization_discount_id', 'authorization_discounts', 'id');
 		$this->forge->addForeignKey('type_agreement_id', 'type_agreements', 'id');
 		$this->forge->addForeignKey('fuel_autho_id', 'fuel_authorization', 'id');

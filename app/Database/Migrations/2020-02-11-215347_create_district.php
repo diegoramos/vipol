@@ -9,9 +9,8 @@ class CreateDistrict extends Migration
 		$this->forge->addField([
 			'id'          => [
 				'type'           => 'VARCHAR',
-				'constraint'     => 5,
+				'constraint'     => '5',
 				'null'           => FALSE,
-				//'unsigned'       => TRUE,
 			],
 			'description_short'       => [
 				'type'           => 'VARCHAR',
