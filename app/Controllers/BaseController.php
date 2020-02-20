@@ -14,6 +14,7 @@ namespace App\Controllers;
  * @package CodeIgniter
  */
 
+use App\Models\Permission;
 use CodeIgniter\Controller;
 
 class BaseController extends Controller
@@ -28,6 +29,8 @@ class BaseController extends Controller
 	 */
 	protected $helpers = [];
 
+	public static $permissionsSession = [];
+
 	/**
 	 * Constructor.
 	 */
@@ -35,12 +38,14 @@ class BaseController extends Controller
 	{
 		// Do Not Edit This Line
 		parent::initController($request, $response, $logger);
-
 		//--------------------------------------------------------------------
 		// Preload any models, libraries, etc, here.
 		//--------------------------------------------------------------------
 		// E.g.:
-		// $this->session = \Config\Services::session();
+		$this->session = \Config\Services::session();
+		$permissionUser = new Permission();
+		$myPermission = $permissionUser->findAllByColumn('user_id', $this->session->get('user')['id']);
+		$this::$permissionsSession = $myPermission;
 	}
 
 }

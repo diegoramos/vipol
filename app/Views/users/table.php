@@ -23,8 +23,6 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-
-
             <!-- Main row -->
             <div class="row">
                 <div class="col-12">

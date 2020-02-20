@@ -26,8 +26,8 @@ class ModuleSeeder extends \CodeIgniter\Database\Seeder
             ['id' => 12, 'name' => 'Resum Tit.Prop', 'icons' => '', 'module_id' => 4, 'is_base'=>0],
 
             ['id' => 13, 'name' => 'Por Orden Alfabético', 'icons' => '', 'module_id' => 5, 'is_base'=>0],
-            ['id' => 14, 'name' => 'Aportes Efectuados', 'icons' => '', 'module_id' => 5, 'is_base'=>0],
-            ['id' => 15, 'name' => 'Res In Prog V', 'icons' => '', 'module_id' => 5, 'is_base'=>0],
+            ['id' => 14, 'name' => 'Padron Gral de socios', 'icons' => '', 'module_id' => 5, 'is_base'=>0],
+            ['id' => 15, 'name' => 'Aportes Efectuados', 'icons' => '', 'module_id' => 5, 'is_base'=>0],//falta
             ['id' => 16, 'name' => 'Acum.Fondos x Prog', 'icons' => '', 'module_id' => 5, 'is_base'=>0],
 
             //CAJA
@@ -44,8 +44,9 @@ class ModuleSeeder extends \CodeIgniter\Database\Seeder
             ['id' => 24, 'name' => 'Ingreso de Caja', 'icons' => '', 'module_id' => 23, 'is_base'=>0],
             ['id' => 25, 'name' => 'Egreso de Caja', 'icons' => '', 'module_id' => 23, 'is_base'=>0],
             ['id' => 26, 'name' => 'Regularizaciones', 'icons' => '', 'module_id' => 23, 'is_base'=>0],
-            ['id' => 27, 'name' => 'Vales Prov/Definit', 'icons' => '', 'module_id' => 23, 'is_base'=>0],
-            ['id' => 28, 'name' => 'Descuentos Indebidos', 'icons' => '', 'module_id' => 23, 'is_base'=>0],
+
+            ['id' => 27, 'name' => 'Vales Prov/Definit', 'icons' => '', 'module_id' => 25, 'is_base'=>0],
+            ['id' => 28, 'name' => 'Descuentos Indebidos', 'icons' => '', 'module_id' => 25, 'is_base'=>0],
 
             ['id' => 29, 'name' => 'Ing. Cobr.', 'icons' => '', 'module_id' => 19, 'is_base'=>0],
             ['id' => 30, 'name' => 'Emis Recib.', 'icons' => '', 'module_id' => 19, 'is_base'=>0],
@@ -65,6 +66,15 @@ class ModuleSeeder extends \CodeIgniter\Database\Seeder
             ['id' => 43, 'name' => 'Res Ingr/Egr', 'icons' => '', 'module_id' => 20, 'is_base'=>0],
             ['id' => 44, 'name' => 'Recibidos x Act.', 'icons' => '', 'module_id' => 20, 'is_base'=>0],
 
+            ['id' => 268, 'name' => 'Det Ing diario', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+            ['id' => 269, 'name' => 'Res de IngrxDia', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+            ['id' => 270, 'name' => 'Res Diario xC.Aux', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+            ['id' => 271, 'name' => 'Res Ing xCta Cont', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+            ['id' => 272, 'name' => 'Gastos Definitivo', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+            ['id' => 273, 'name' => 'Desctos Indebidos', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+            ['id' => 274, 'name' => 'Recibos Provis.', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+            ['id' => 275, 'name' => 'Pen Regulariz.', 'icons' => '', 'module_id' => 21, 'is_base'=>0],
+
             //CAJA BANCOS
             ['id' => 45, 'name' => 'Caja Bancos', 'icons' => '', 'module_id' => 1, 'is_base'=>1],
 
@@ -74,19 +84,19 @@ class ModuleSeeder extends \CodeIgniter\Database\Seeder
             ['id' => 49, 'name' => 'Resportes', 'icons' => '', 'module_id' => 45, 'is_base'=>1],
             ['id' => 50, 'name' => 'Proceso', 'icons' => '', 'module_id' => 45, 'is_base'=>1],
 
-            ['id' => 51, 'name' => 'Bacos', 'icons' => '', 'module_id' => 46, 'is_base'=>0],
+            ['id' => 51, 'name' => 'Bancos', 'icons' => '', 'module_id' => 46, 'is_base'=>0],
             ['id' => 52, 'name' => 'Tipo Mvto.', 'icons' => '', 'module_id' => 46, 'is_base'=>0],
             ['id' => 53, 'name' => 'Parte Diari', 'icons' => '', 'module_id' => 46, 'is_base'=>0],
 
             ['id' => 54, 'name' => 'Chq-Vouche', 'icons' => '', 'module_id' => 47, 'is_base'=>0],
-            ['id' => 55, 'name' => 'Act.Cheque', 'icons' => '', 'module_id' => 47, 'is_base'=>0],
+            ['id' => 55, 'name' => 'Act.Cheque', 'icons' => '', 'module_id' => 47, 'is_base'=>0],//FALTA
             ['id' => 56, 'name' => 'Mvto.Banco', 'icons' => '', 'module_id' => 47, 'is_base'=>0],
             ['id' => 57, 'name' => 'Extract.Bco', 'icons' => '', 'module_id' => 47, 'is_base'=>0],
             ['id' => 58, 'name' => 'Chqs.Pend', 'icons' => '', 'module_id' => 47, 'is_base'=>0],
             ['id' => 59, 'name' => 'Reg.Vouche', 'icons' => '', 'module_id' => 47, 'is_base'=>0],
 
             ['id' => 60, 'name' => 'Por Banco', 'icons' => '', 'module_id' => 48, 'is_base'=>0],
-            ['id' => 61, 'name' => 'Numer.Cta', 'icons' => '', 'module_id' => 48, 'is_base'=>0],
+            ['id' => 61, 'name' => 'Numer. de Analisis', 'icons' => '', 'module_id' => 48, 'is_base'=>0],//Cta
             ['id' => 62, 'name' => 'Referencia', 'icons' => '', 'module_id' => 48, 'is_base'=>0],
             ['id' => 63, 'name' => 'Por Día', 'icons' => '', 'module_id' => 48, 'is_base'=>0],
             ['id' => 64, 'name' => 'Saldo Bco', 'icons' => '', 'module_id' => 48, 'is_base'=>0],
@@ -181,12 +191,13 @@ class ModuleSeeder extends \CodeIgniter\Database\Seeder
             ['id' => 139, 'name' => 'Acum Mens de Caja', 'icons' => '', 'module_id' => 124, 'is_base'=>0],
             ['id' => 140, 'name' => 'Garantes', 'icons' => '', 'module_id' => 124, 'is_base'=>0],
             ['id' => 141, 'name' => 'Nuevos Prestamos', 'icons' => '', 'module_id' => 124, 'is_base'=>0],
+
             //CTAS. CTES
             ['id' => 142, 'name' => 'Ctas Ctes', 'icons' => '', 'module_id' => 1, 'is_base'=>1],
 
             ['id' => 143, 'name' => 'Maestros', 'icons' => '', 'module_id' => 142, 'is_base'=>1],
-            ['id' => 144, 'name' => 'Movimientos', 'icons' => '', 'module_id' => 142, 'is_base'=>1],
-            ['id' => 145, 'name' => 'Consultas', 'icons' => '', 'module_id' => 142, 'is_base'=>1],
+            ['id' => 144, 'name' => 'Consultas', 'icons' => '', 'module_id' => 142, 'is_base'=>1],
+            ['id' => 145, 'name' => 'Orden de Pago', 'icons' => '', 'module_id' => 142, 'is_base'=>1],
             ['id' => 146, 'name' => 'Reportes', 'icons' => '', 'module_id' => 142, 'is_base'=>1],
             
             ['id' => 147, 'name' => 'PagosxContab', 'icons' => '', 'module_id' => 143, 'is_base'=>0],
@@ -207,6 +218,7 @@ class ModuleSeeder extends \CodeIgniter\Database\Seeder
             ['id' => 159, 'name' => 'Ctrl Pagos x Caja', 'icons' => '', 'module_id' => 146, 'is_base'=>0],
             ['id' => 160, 'name' => 'Proyectado', 'icons' => '', 'module_id' => 146, 'is_base'=>0],
             ['id' => 161, 'name' => 'Acum.MesxPlanxDct', 'icons' => '', 'module_id' => 146, 'is_base'=>0],
+            
             //RECUPERACIONES
             ['id' => 162, 'name' => 'Recuperaciones', 'icons' => '', 'module_id' => 1, 'is_base'=>1],
 
@@ -342,6 +354,7 @@ class ModuleSeeder extends \CodeIgniter\Database\Seeder
             ['id' => 266, 'name' => 'Usuarios', 'icons' => '', 'module_id' => 262, 'is_base'=>0],
             ['id' => 267, 'name' => 'Tablas', 'icons' => '', 'module_id' => 262, 'is_base'=>0],
 
+            //last 275
         ];
 
         // Simple Queries

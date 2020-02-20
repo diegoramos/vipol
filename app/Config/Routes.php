@@ -77,8 +77,10 @@ $routes->post('/login', 'Login::auth');
 //$routes->match(['get', 'post'], 'news/create', 'News::create');
 //$routes->get('news/(:segment)', 'News::view/$1');
 //$routes->get('news', 'News::index');
-$routes->get('/home', 'Home::index');
-$routes->resource('users');
+$routes->group('', ['filter' => 'authentification'], function($routes) {
+	$routes->get('/home', 'Home::index');
+	$routes->resource('users');
+});
 
 //$routes->get('user', 'User::index');
 

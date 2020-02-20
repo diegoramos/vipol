@@ -14,7 +14,7 @@ class Login extends BaseController
 
         public function index()
         {
-                if (session()->get('user') != null) {
+                if ($this->session->get('user') != null) {
                         return redirect()->to('/home');
                 }
                 return view('auth/login', ['errors' => []]);
@@ -22,7 +22,7 @@ class Login extends BaseController
 
         public function auth()
         {
-                if (session()->get('user') != null) {
+                if ($this->session->get('user') != null) {
                         return redirect()->to('/users');
                 }
                 $validation =  \Config\Services::validation();
@@ -57,13 +57,12 @@ class Login extends BaseController
 
         private function setSessionUser(array $userRow)
         {
-                $session = session();
                 $newSessionData = [
                         'id' => $userRow['id'],
                         'email' => $userRow['email'],
                         'person_id' => $userRow['person_id'],
                         'fullname' => $userRow['fullname']
                 ];
-                $session->set(['user' => $newSessionData]);
+                $this->session->set(['user' => $newSessionData]);
         }
 }

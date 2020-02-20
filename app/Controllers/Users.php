@@ -12,6 +12,7 @@ class Users extends BaseController implements IBaseController
 {
     public function __construct()
     {
+        
     }
 
     public function index()
