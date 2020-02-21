@@ -79,6 +79,7 @@ $routes->post('/login', 'Login::auth');
 //$routes->get('news', 'News::index');
 $routes->group('', ['filter' => 'authentification'], function($routes) {
 	$routes->get('/home', 'Home::index');
+	$routes->post('/users', 'Users::list');
 	$routes->resource('users');
 });
 

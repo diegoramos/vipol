@@ -7,7 +7,7 @@ use Exception;
 
 class User extends Model
 {
-    protected $table = 'users';
+    public $table = 'users';
 
     protected $useSoftDeletes = true;
 

@@ -7,12 +7,15 @@ use App\Models\Module;
 use App\Models\Permission;
 use App\Models\Person;
 use App\Models\User;
+use App\Repository\UserRepository;
 
 class Users extends BaseController implements IBaseController
 {
+    private $userRepository;
+
     public function __construct()
     {
-        
+        $this->userRepository = new UserRepository();
     }
 
     public function index()
@@ -25,11 +28,27 @@ class Users extends BaseController implements IBaseController
             ->where('deleted_at', null)
             ->join('users', 'users.person_id = persons.id')
             ->paginate(20, 'pagina');
-        
+
         return view('users/table', array(
             'users' => $users,
             'pager' => $user->pager
         ));
+    }
+
+    public function list()
+    {
+        if ($this->request->isAJAX()) {
+            $limit = $this->request->getPost('length');
+            $start = $this->request->getPost('start');
+            $order = UserRepository::$columnsOrder[$this->request->getPost('order[0][column]')];
+            $dir = $this->request->getPost('order[0][dir]');
+            $search = $this->request->getPost('search[value]');
+            $draw = $this->request->getPost('draw');
+            
+            $response = $this->userRepository->makeDataTable($order, $dir, $limit, $start, $search, $draw);
+
+            return $this->response->setJSON($response);
+        }
     }
 
     public function new()
@@ -41,7 +60,7 @@ class Users extends BaseController implements IBaseController
     {
         $requestData = $this->request->getPost();
         $validation =  \Config\Services::validation();
-        
+
         if (!$validation->run($requestData, 'signup')) {
 
             $errors = $validation->getErrors();
@@ -78,7 +97,7 @@ class Users extends BaseController implements IBaseController
     {
         $user = new User();
         $userData = $user->find($userId);
-        
+
         $person = new Person();
         $personData = $person->find($userData['person_id']);
         $fields = array(

@@ -3370,94 +3370,89 @@
                         </ul>
                       </li>
                       <?php if (in_array(174, $permissions)) { ?>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            Notificaciones por Programa
-                          </p>
-                        </a>
-                      </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Notificaciones por Programa
+                            </p>
+                          </a>
+                        </li>
                       <?php } ?>
                       <?php if (in_array(176, $permissions)) { ?>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            Saldos Pendientes por Prog
-                          </p>
-                        </a>
-                      </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Saldos Pendientes por Prog
+                            </p>
+                          </a>
+                        </li>
                       <?php } ?>
                       <?php if (in_array(178, $permissions)) { ?>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            >>.. Imprimir Notificaciones ..<< 
-                          </p> 
-                        </a> 
-                      </li>
-                      <?php } ?>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            Padŕon Gral de Socios x Prog(Notif.)
-                          </p>
-                        </a>
-                      </li>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            Padrón Gral de Socios x Prog(SitSoc.)
-                          </p>
-                        </a>
-                      </li>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            Notifi. por Prog+Importe
-                          </p>
-                        </a>
-                      </li>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            Listado por Deuda Atrasad. y Morosi.
-                            <i class="right fas fa-angle-left"></i>
-                          </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                          <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                              <i class="nav-icon far fa-dot-circle"></i>
-                              <p>
-                                En Forma General
-                              </p>
-                            </a>
-                          </li>
-                          <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                              <i class="nav-icon far fa-dot-circle"></i>
-                              <p>
-                                Por Prog de Viv
-                              </p>
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item has-treeview">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-circle"></i>
-                          <p>
-                            List.xDeud.Atras.y Moros.(Ren/Fall/Excl)
-                          </p>
-                        </a>
-                      </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              >>.. Imprimir Notificaciones ..<< </p> </a> </li> <?php } ?> <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                  <i class="nav-icon fas fa-circle"></i>
+                                  <p>
+                                    Padŕon Gral de Socios x Prog(Notif.)
+                                  </p>
+                                </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Padrón Gral de Socios x Prog(SitSoc.)
+                            </p>
+                          </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Notifi. por Prog+Importe
+                            </p>
+                          </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Listado por Deuda Atrasad. y Morosi.
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  En Forma General
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Por Prog de Viv
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              List.xDeud.Atras.y Moros.(Ren/Fall/Excl)
+                            </p>
+                          </a>
+                        </li>
                     </ul>
                   </li>
                 <?php } ?>
@@ -3476,144 +3471,144 @@
               </a>
               <ul class="nav nav-treeview">
                 <?php if (in_array(181, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Movimientos
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(185, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          IngresosxMulta
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Movimientos
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(185, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              IngresosxMulta
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(182, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Consultas
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Consultas
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
 
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(186, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Ficha de Socios
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(187, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Estado de Cta Cte
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(186, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Ficha de Socios
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(187, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Estado de Cta Cte
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(183, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Reportes
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Reportes
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
 
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(188, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Socios Afectos a Multas
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(189, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Padrón Gral SociosxProg.Global
-                        </p>
-                      </a>
-                    </li>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Padrón Gral SociosxProg.Electo.
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Generacio TxT
-                        </p>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(188, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Socios Afectos a Multas
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(189, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Padrón Gral SociosxProg.Global
+                            </p>
+                          </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Padrón Gral SociosxProg.Electo.
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <li class="nav-item has-treeview">
+                        <a href="#" class="nav-link">
+                          <i class="nav-icon fas fa-circle"></i>
+                          <p>
+                            Generacio TxT
+                          </p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(184, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Proceso
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(190, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cambio Fecha Proseso
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(191, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Transf. a Dscto Vivienda
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Proceso
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(190, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Cambio Fecha Proseso
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(191, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Transf. a Dscto Vivienda
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
               </ul>
             </li>
@@ -3629,467 +3624,467 @@
               </a>
               <ul class="nav nav-treeview">
                 <?php if (in_array(193, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Maestros
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(198, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Almacen/Logistica
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Servicios
-                        </p>
-                      </a>
-                    </li>
-                    <?php if (in_array(199, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Proveedores
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(200, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Activos Fijos
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(201, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Dist. Activos Fijos
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Maestros
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(198, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Almacen/Logistica
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <li class="nav-item has-treeview">
+                        <a href="#" class="nav-link">
+                          <i class="nav-icon fas fa-circle"></i>
+                          <p>
+                            Servicios
+                          </p>
+                        </a>
+                      </li>
+                      <?php if (in_array(199, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Proveedores
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(200, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Activos Fijos
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(201, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Dist. Activos Fijos
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(194, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Movimientos
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Movimientos
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
 
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(202, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Ingresos/Salidas Almacenes
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(203, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Fotocopias
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(202, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Ingresos/Salidas Servicios
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(202, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Ingresos/Salidas Almacenes
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(203, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Fotocopias
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(202, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Ingresos/Salidas Servicios
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(195, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Procesos
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Procesos
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
 
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(204, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Actualiza Saldos Almacen
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(205, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Recálc.Prec.Fin de Año Alm
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(206, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Transf. Saldos Almacen
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(204, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Actualiza Saldos Servicios
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(205, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Recálc.Precio Fin de Año Ser
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(206, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Transf.Saldos Servicios
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(204, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Actualiza Saldos Almacen
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(205, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Recálc.Prec.Fin de Año Alm
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(206, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Transf. Saldos Almacen
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(204, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Actualiza Saldos Servicios
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(205, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Recálc.Precio Fin de Año Ser
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(206, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Transf.Saldos Servicios
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(196, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Reportes
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(207, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Kardex Cantidades
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Reportes
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(207, $permissions)) { ?>
                         <li class="nav-item has-treeview">
                           <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
+                            <i class="nav-icon fas fa-circle"></i>
                             <p>
-                              Almacenes
+                              Kardex Cantidades
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(208, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Kardex Valorizado
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(209, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Consum. ArticuxAreas
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(210, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Compras x Proveedor
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(211, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Saldos Mes Actual
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(212, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Saldos Mes Anterior
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(213, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Alerta Stocks
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(214, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Toma de Invetarios
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(215, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Cruce de Invetarios
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Almacenes
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Servicios
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(216, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Fotocopias
                             </p>
                           </a>
                         </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(208, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Kardex Valorizado
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(209, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Consum. ArticuxAreas
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(210, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Compras x Proveedor
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(211, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Saldos Mes Actual
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(212, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Saldos Mes Anterior
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(213, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Alerta Stocks
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(214, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Toma de Invetarios
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(215, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cruce de Invetarios
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Almacenes
-                            </p>
-                          </a>
-                        </li>
-                        <li class="nav-item has-treeview">
-                          <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
-                            <p>
-                              Servicios
-                            </p>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(216, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Fotocopias
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
               </ul>
             </li>
@@ -4106,497 +4101,497 @@
               </a>
               <ul class="nav nav-treeview">
                 <?php if (in_array(219, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Maestros
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Maestros
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
 
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(224, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Personal
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(225, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Conceptos
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(226, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          AFP's
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(227, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Concep. AFP's
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(228, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Formulas de Conceptos
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(229, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Patron de Formulas
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(230, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Situacion Laboral
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(231, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cuentas de Asiento Conta.
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(224, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Personal
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(225, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Conceptos
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(226, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              AFP's
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(227, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Concep. AFP's
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(228, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Formulas de Conceptos
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(229, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Patron de Formulas
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(230, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Situacion Laboral
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(231, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Cuentas de Asiento Conta.
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(220, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Movimientos
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Movimientos
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
 
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(232, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Conceptos Fijos/Variables
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(233, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Registro Asistencia
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(234, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Adelanto Quincena
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(235, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cuenta Corriente
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(232, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Conceptos Fijos/Variables
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(233, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Registro Asistencia
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(234, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Adelanto Quincena
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(235, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Cuenta Corriente
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(221, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Procesos
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Procesos
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
 
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(236, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cálculo Planilla
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(237, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cierre Periodo
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(238, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Transf.Vacaciones
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(239, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Transf.Gratificaciones
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(240, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Transf.Contabilidad
-                          <i class="right fas fa-angle-left"></i>
-                        </p>
-                      </a>
-                      <ul class="nav nav-treeview">
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(236, $permissions)) { ?>
                         <li class="nav-item has-treeview">
                           <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
+                            <i class="nav-icon fas fa-circle"></i>
                             <p>
-                              Normal Gratificaciones
+                              Cálculo Planilla
                             </p>
                           </a>
                         </li>
+                      <?php } ?>
+                      <?php if (in_array(237, $permissions)) { ?>
                         <li class="nav-item has-treeview">
                           <a href="#" class="nav-link">
-                            <i class="nav-icon far fa-dot-circle"></i>
+                            <i class="nav-icon fas fa-circle"></i>
                             <p>
-                              Vacaciones
+                              Cierre Periodo
                             </p>
                           </a>
                         </li>
-                      </ul>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(241, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Transf.Bolsa Vipol
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(242, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Tope de Adelanto
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                      <?php } ?>
+                      <?php if (in_array(238, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Transf.Vacaciones
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(239, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Transf.Gratificaciones
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(240, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Transf.Contabilidad
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Normal Gratificaciones
+                                </p>
+                              </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                              <a href="#" class="nav-link">
+                                <i class="nav-icon far fa-dot-circle"></i>
+                                <p>
+                                  Vacaciones
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(241, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Transf.Bolsa Vipol
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(242, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Tope de Adelanto
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(222, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Reportes
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <?php if (in_array(243, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Mvto.Planilla Calculada
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(244, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Pre Planilla Calculada
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(245, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Boleta de Pagos
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(246, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Resumen x Concepto
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(247, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Adelanto de Quincena
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(248, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Libro Planilla
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(249, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Declarac.Jurada IPSS
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(250, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Aportes Previsionales AFP's
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(251, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Asiento Contable
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(252, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Descto.Cta.Cte por Periodo
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(253, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Concepto por Personal Calculado
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(254, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Neto Percibido
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(256, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Adelantos Recibidos Provis.Caja
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(257, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Recibos Rendicion de Cuenta
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Formato Planilla
-                        </p>
-                      </a>
-                    </li>
-                    <?php if (in_array(248, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Libro Planilla Nuevo
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Reportes
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <?php if (in_array(243, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Mvto.Planilla Calculada
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(244, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Pre Planilla Calculada
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(245, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Boleta de Pagos
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(246, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Resumen x Concepto
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(247, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Adelanto de Quincena
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(248, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Libro Planilla
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(249, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Declarac.Jurada IPSS
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(250, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Aportes Previsionales AFP's
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(251, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Asiento Contable
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(252, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Descto.Cta.Cte por Periodo
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(253, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Concepto por Personal Calculado
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(254, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Neto Percibido
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(256, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Adelantos Recibidos Provis.Caja
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(257, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Recibos Rendicion de Cuenta
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <li class="nav-item has-treeview">
+                        <a href="#" class="nav-link">
+                          <i class="nav-icon fas fa-circle"></i>
+                          <p>
+                            Formato Planilla
+                          </p>
+                        </a>
+                      </li>
+                      <?php if (in_array(248, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Libro Planilla Nuevo
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
                 <?php if (in_array(223, $permissions)) { ?>
-                <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Soporte
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cambio Fecha Proceso
-                        </p>
-                      </a>
-                    </li>
-                    <?php if (in_array(257, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Cambiar Estado de Personal
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(258, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Selec. Planilla y Proceso
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(259, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Selec. Periodo Calculado
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(260, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Genera Periodos de Cálculo
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                    <?php if (in_array(261, $permissions)) { ?>
-                    <li class="nav-item has-treeview">
-                      <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                          Periodos Transf. a Contabilidad
-                        </p>
-                      </a>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </li>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>
+                        Soporte
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item has-treeview">
+                        <a href="#" class="nav-link">
+                          <i class="nav-icon fas fa-circle"></i>
+                          <p>
+                            Cambio Fecha Proceso
+                          </p>
+                        </a>
+                      </li>
+                      <?php if (in_array(257, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Cambiar Estado de Personal
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(258, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Selec. Planilla y Proceso
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(259, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Selec. Periodo Calculado
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(260, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Genera Periodos de Cálculo
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                      <?php if (in_array(261, $permissions)) { ?>
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                              Periodos Transf. a Contabilidad
+                            </p>
+                          </a>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </li>
                 <?php } ?>
               </ul>
             </li>

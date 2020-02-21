@@ -9,7 +9,6 @@ class Login extends BaseController
         public function __construct()
         {
                 helper(['form', 'url']);
-                
         }
 
         public function index()
@@ -64,5 +63,11 @@ class Login extends BaseController
                         'fullname' => $userRow['fullname']
                 ];
                 $this->session->set(['user' => $newSessionData]);
+        }
+
+        public function destroy()
+        {
+                $this->session->destroy();
+                return redirect('login');
         }
 }

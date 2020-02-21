@@ -1,88 +1,100 @@
-<?= view('templates/header') ?>
-<?= view('templates/sidebar') ?>
-<!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1 class="m-0 text-dark">Listado De Usuarios</h1>
-                </div><!-- /.col -->
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Usuarios</a></li>
-                        <li class="breadcrumb-item active">Listado</li>
-                    </ol>
-                </div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
-
-    <!-- Main content -->
-    <section class="content">
-        <div class="container-fluid">
-            <!-- Main row -->
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">Lista de Usuarios </h3>
-                            <div class="float-right"><a class="btn btn-success" href="/users/new" role="button">Nuevo</a></div>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body table-responsive p-0">
-                            <table class="table table-hover text-nowrap">
-                                <thead>
-                                    <tr>
-                                        <th>Id</th>
-                                        <th>Dni</th>
-                                        <th>Nombre</th>
-                                        <th>Apellido</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php foreach ($users as $key => $value) { ?>
-                                        <tr>
-                                            <td><?= $value['id'] ?></td>
-                                            <td><?= $value['dni'] ?></td>
-                                            <td><?= $value['name'] ?></td>
-                                            <td><?= $value['last_name'] ?></td>
-                                            <td>
-                                                <form action="/users/<?= $value['id'] ?>" method="post">
-                                                    <a href="/users/<?= $value['id'] ?>/edit" class="btn btn-primary"><i class="fa fa-edit"></i></a>
-
-                                                    <input type="hidden" name="_method" value="DELETE" />
-                                                    <button class="btn btn-danger" type="submit" onclick="return confirm('Estas seguro?')"><i class="fa fa-trash"></i></button>
-                                                </form>
-                                            </td>
-                                        </tr>
-                                    <?php } ?>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <th>Id</th>
-                                        <th>Dni</th>
-                                        <th>Nombre</th>
-                                        <th>Apellido</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                            <?= $pager->links(); ?>
-                        </div>
-                        <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!--/. container-fluid -->
-    </section>
-    <!-- /.content -->
+<?= $this->extend('templates/main') ?>
+<?= $this->section('content') ?>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Listado De Usuarios</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Usuarios</a></li>
+                    <li class="breadcrumb-item active">Listado</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
 </div>
+<!-- /.content-header -->
 
-<?= view('templates/footer') ?>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <!-- Main row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Lista de Usuarios </h3>
+                        <div class="float-right">
+                            <a class="btn btn-success" href="/users/new" role="button">Nuevo</a>
+                        </div>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body table-responsive p-0">
+                        <table id="data-table-user" class="table table-hover text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Dni</th>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!--/. container-fluid -->
+</section>
+<?= $this->endSection() ?>
+
+<?= $this->section('extra-js') ?>
+<script>
+    $(document).ready(function() {
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf_token_name"]').attr('content')
+            }
+        });
+        var dataTableBook = $('#data-table-user').DataTable({
+            serverSide: true,
+            processing: true,
+            ordering: true,
+            ajax: {
+                url: "<?= base_url('users/list') ?>",
+                method: 'post'
+            },
+            "columns": [{
+                    "data": "id"
+                },
+                {
+                    "data": "dni"
+                },
+                {
+                    "data": "name"
+                },
+                {
+                    "data": "last_name"
+                },
+                {
+                    "data": "action"
+                }
+            ],
+            "columnDefs": [{
+                width: '80px',
+                targets: 4,
+                orderable: false
+            }, ]
+        });
+    });
+</script>
+<?= $this->endSection() ?>
