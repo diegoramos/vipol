@@ -191,7 +191,7 @@
               <i class="fas fa-info mr-2"></i> Ver perfil
             </a>
             <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
+            <a href="<?php echo base_url(); ?>/users/logOut" class="dropdown-item">
               <i class="fas fa-sign mr-2"></i> Salir
             </a>
           </div>
