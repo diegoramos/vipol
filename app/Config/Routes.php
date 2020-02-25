@@ -81,8 +81,16 @@ $routes->group('', ['filter' => 'authentification'], function($routes) {
 	$routes->get('/home', 'Home::index');
 	$routes->post('/users', 'Users::list');
 	$routes->resource('users');
+	
 });
-
+$routes->group('partner', ['filter' => 'authentification'], function ($routes) {
+	$routes->get('', 'Partners::index');
+	$routes->post('show', 'Partners::show');
+    $routes->post('store', 'Partners::store');
+    $routes->get('edit/(:segment)', 'Partners::edit/$1');
+    $routes->put('update/(:segment)', 'Partners::update/$1');
+    $routes->delete('destroy/(:num)', 'Partners::destroy/$1');
+});
 //$routes->get('user', 'User::index');
 
 //$routes->get('(:any)', 'Pages::view/$1');
