@@ -160,11 +160,10 @@ class Users extends BaseController implements IBaseController
     public function delete($userId)
     {
         $user = new User();
-
         if ($user->delete($userId)) {
-            return redirect()->to('/users');
+            return $this->response->setJSON(['errors' => $user->errors()]);
         }
-        return redirect()->back()->with('foo', 'message');
+        return $this->response->setJSON(['messages' => 'Se eliminó con exito']);
     }
 
     private function prepareArrayPermission($userId, $permissions): array

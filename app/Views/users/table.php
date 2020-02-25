@@ -65,7 +65,7 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf_token_name"]').attr('content')
             }
         });
-        var dataTableBook = $('#data-table-user').DataTable({
+        var dataTableUser = $('#data-table-user').DataTable({
             serverSide: true,
             processing: true,
             ordering: true,
@@ -95,6 +95,37 @@
                 orderable: false
             }, ]
         });
+
+
+
+        $(document).on('click', '.btn-delete', function(e) {
+            var url = "<?= base_url('users') ?>" + "/" + ":id";
+            url = url.replace(':id', $(this).attr('data-id'));
+
+            if (confirm("¿Estas seguro?")) {
+                ajaxRequest(
+                    url,
+                    'DELETE',
+                    [],
+                    function(response) {
+                        if (response.errors) {
+                            alert(response.messages);
+                        } else {
+                            dataTableUser.ajax.reload();
+                        }
+                    }
+                )
+            }
+        });
+
+        function ajaxRequest(url, type, data, successFunction) {
+            $.ajax({
+                url: url,
+                method: type,
+                data: data,
+                success: successFunction
+            });
+        }
     });
 </script>
 <?= $this->endSection() ?>
