@@ -226,7 +226,6 @@ class Users extends BaseController implements IBaseController
         return view($viewPath, $params);
     }
 
-
     //--------------------------------------------------------------------
 
 }
