@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/adminlte/plugins/summernote/summernote-bs4.css">
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/global.css">
     <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/sweetalert/dist/sweetalert2.min.css">
 
     <?php $request = \Config\Services::request(); ?>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
@@ -237,6 +238,7 @@
     <!-- daterangepicker -->
     <script src="<?= base_url(); ?>/assets/adminlte/plugins/moment/moment.min.js"></script>
     <script src="<?= base_url(); ?>/assets/adminlte/plugins/daterangepicker/daterangepicker.js"></script>
+    <script src="<?= base_url(); ?>/assets/sweetalert/dist/sweetalert2.min.js"></script>
 
     <?php if ($request->uri->getSegment(1) == 'home') { ?>
         <!-- ChartJS -->
@@ -260,8 +262,6 @@
 
     <!-- assets/adminlte App -->
     <script src="<?= base_url(); ?>/assets/adminlte/dist/js/adminlte.js"></script>
-
-
     <script src="<?= base_url(); ?>/assets/adminlte/plugins/jquery-validation/jquery.validate.min.js"></script>
     <script src="<?= base_url(); ?>/assets/adminlte/plugins/jquery-validation/additional-methods.min.js"></script>
 
